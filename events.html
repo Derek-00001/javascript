@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript events</title>
+    <link rel="stylesheet" href="events.css">
+</head>
+<body>
+    <button id="btn">click me!</button>
+
+<!-- here onclick is an attribute.  we can add many things to attribute  -->
+<body>
+    <button ondblclick="console.log('button was clicked 2x');;alert('Precaution')">click me 2 times!</button>
+<!-- ondblclick attribute works when a button was double clicked  -->
+<br>
+<div onmouseover="console.log('you are inside the div')">This is a box</div>
+<!-- onmouseover is another type of attribute -->
+
+<!-- Till now we're studying inline events. now let's move to event handling in js  -->
+
+<button id="btn1">Event object</button>
+
+<!-- PRACTICE QUESTION  -->
+ <button id="mode">Change mode</button>
+
+
+    <script src="events.js"></script>
+</body>
+</html>
